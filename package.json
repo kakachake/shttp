@@ -1,0 +1,23 @@
+{
+  "name": "shttp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run serve:example",
+    "serve:example": "nodemon -w src -w example ./example/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "mime": "^3.0.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
